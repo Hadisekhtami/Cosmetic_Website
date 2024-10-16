@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+}
+*
+{
+    color: black;
+    text-decoration: none!important;    
+}
+html
+{
+    font-size: 16px;
+}
+header
+{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Img/3.webp) center/cover no-repeat;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.header-title
+ {
+    font-size: 2rem;
+    color: black;
+    margin-top: 20%;
+}
+.top-menu-brand
+{
+    flex-grow:5!important ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.brand
+{
+    font-family: 'Belfika Namor';
+}
+.Register,.favorite,.sign-in,.cart
+{
+    font-size: 1.1rem;
+    flex-grow: 1;
+}
+.card-title
+{
+    color: #003900;
+    font-weight: bold;
+    line-height:25.6px ;
+}
+
+.shipping-title
+{
+    color: #003900;
+    text-wrap: nowrap;
+}
+
+.card:hover
+{
+    box-shadow: 1px 1px 10px  5px #e6e6e6;
+    transform: translate(5px, -30px);
+    transition: all .5s ease-in-out;
+}
+.advantage
+{
+    background-color: #dddddd82;
+}
+.price
+{
+    color: #003900;
+    font-weight: bolder;
+}
+.btn-outline:hover
+{
+    opacity: 0.93;
+}
+@media screen and (max-width: 600px)
+{
+    .adv-one,.adv-two,.adv-three
+    {
+        padding-top: 30px!important;
+    }
+    .adv-two
+    {
+        order: 3;
+    }
+    .footer-text
+    {
+        text-wrap: nowrap;
+        word-spacing: -.5px;
+    }
+    .card
+    {
+       width: 350px;
+       margin: auto;
+    }
+    
+   
+}
